@@ -168,6 +168,7 @@ main {
 
 .main_info div a {
     background-color: var(--vermelho);
+    cursor: pointer;
 }
 
 .main_info div button {
