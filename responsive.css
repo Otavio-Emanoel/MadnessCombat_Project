@@ -1,0 +1,102 @@
+@media (max-width: 700px) {
+    header {
+        gap: 20px;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: 360px;
+        padding-top: 24px;
+        margin-bottom: 20px !important;
+    }
+
+    header img {
+        width: 150px !important;
+        height: auto;
+    }
+
+    .navigation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        list-style: none;
+    }
+
+    .navigation_link {
+        font-size: 16px;
+    }
+
+    .navigation_social {
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+        margin-left: 0 !important;
+    }
+
+    .navigation_social svg {
+        width: 20px;
+        height: 20px;
+        opacity: 0.6;
+        transition: all 0.4s;
+    }
+
+    #app {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        overflow-x: hidden !important;
+        overflow-y: auto !important;
+        padding-top: 40px !important;
+        margin-bottom: 50px !important;
+    }
+
+    main {
+        flex: 1;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: baseline !important;
+        gap: 50px;
+        width: 100%;
+        max-width: 400px !important;
+    }
+
+    .main_info {
+        width: 100%;
+        max-width: 390px !important;
+    }
+
+    .main_info p {
+        font-size: 18px;
+        margin: 20px 0 28px;
+    }
+
+    .main_info div {
+        display: flex;
+        column-gap: 10px !important;
+    }
+
+    .main_info div a,
+    .main_info div button {
+        width: 90% !important;
+        padding: 10px 0;
+        border-radius: 3px;
+        font-size: 16px;
+        font-weight: 600;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 0.3px;
+        transform: skew(-5deg) !important;
+    }
+
+    #madness-friends {
+        width: 390px !important;
+    }
+
+    #logo-nexus-p {
+        width: 380px !important;
+    }
+}

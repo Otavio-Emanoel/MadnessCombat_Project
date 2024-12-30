@@ -1,3 +1,5 @@
+@import url('./responsive.css');
+
 * {
     padding: 0;
     margin: 0;
@@ -14,14 +16,14 @@
 #background {
     position: fixed;
     width: 100%;
-    height: 100vh;
+    height: 100dvh;
     z-index: -1;
     inset: 0;
 }
 
 #background video {
     width: 100%;
-    height: 100vh;
+    height: 100dvh;
     object-fit: cover;
 }
 
@@ -174,4 +176,12 @@ main {
 .main_info div button {
     background-color: transparent;
     border: 1px solid var(--verde);
+}
+
+#madness-friends {
+    width: 450px;
+}
+
+#logo-nexus-p {
+    width: 450px;
 }
